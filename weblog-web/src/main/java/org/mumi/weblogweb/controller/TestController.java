@@ -40,4 +40,10 @@ public class TestController {
         int i = 1 / 0;
        return Response.success();
     }
+
+    @GetMapping("/admin/test")
+    @ApiOperationLog(description = "测试security")
+    public Response testAdmin() {
+        return Response.success();
+    }
 }

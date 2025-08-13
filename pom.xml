@@ -24,6 +24,7 @@
         <module>weblog-web</module>
         <module>weblog-module-admin</module>
         <module>weblog-common</module>
+        <module>weblog-module-jwt</module>
     </modules>
 
     <properties>
@@ -57,6 +58,11 @@
             <dependency>
                 <groupId>org.mumi</groupId>
                 <artifactId>weblog-module-admin</artifactId>
+                <version>${revision}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.mumi</groupId>
+                <artifactId>weblog-module-jwt</artifactId>
                 <version>${revision}</version>
             </dependency>
             <!-- 常用工具库 -->

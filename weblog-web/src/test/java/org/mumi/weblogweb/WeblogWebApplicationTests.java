@@ -30,7 +30,7 @@ class WeblogWebApplicationTests {
 
     @Test
     void insertUser() {
-        UserDO userDO = UserDO.builder().username("张三").password("123456").createTime(new Date()).updateTime(new Date()).isDeleted(false).build();
+        UserDO userDO = UserDO.builder().username("李四").password("123456").createTime(new Date()).updateTime(new Date()).isDeleted(false).build();
 
         userMapper.insert(userDO);
     }
